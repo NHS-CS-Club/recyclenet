@@ -6,7 +6,7 @@ Some notebooks use [the 6-catagory trashnet-resized dataset](https://github.com/
 [the 12-catagory garbage-classification dataset](https://www.kaggle.com/mostafaabla/garbage-classification).
 These notebooks heavily draw upon code examples provided by [Tensorflow](https://www.tensorflow.org/tutorials)
 
-##Notebooks
+## Notebooks
 
 All of the notebooks are designed to run in Google Colab.
 A major concern of using it is that it imposes ram limits. In order to avoid these, a small batch and image size is used and the dataset is sometimes not cached or optimised like
