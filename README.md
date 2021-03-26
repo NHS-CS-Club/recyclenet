@@ -18,8 +18,8 @@ Every effort has been made to stay just under these limits while having a speedy
 
 A summary of the notebooks is provided below:
 
-|Notebook|Dataset|Image size|Batch size|Peak Accuracy|Details
+|Notebook|Dataset|Peak Accuracy|Image size|Batch size|Details
 ---|---|---|---|---|---
-|main.ipynb|12 catagory|79.31%|100x100|10|Decrease the training rate once it gets to around 75% or so accuracy (possibly due to overfitting). This uses the standard Convolutional network approch, with data augmentation and dropout.
+|main.ipynb|12 catagory|79.31%|100x100|10|Decrease the training rate once it gets to around 75% or so accuracy (possibly due to overfitting). This uses the standard convolutional network approch, with data augmentation and dropout.
 |main2.ipynb|6 catagory|90.30%|224x224|32|Same as above (but does not use a convolutional layer). Uses transfer learning with MobileNetV2 for higher accuracy. [Model weights](https://github.com/TinyTinfoil/recyclenet/blob/main/model%20(2).h5) are provided.
 
